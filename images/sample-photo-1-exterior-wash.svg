@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Placeholder photo: Exterior wash">
+  <rect width="1200" height="900" fill="#E7EAEF"/>
+  <rect x="40" y="40" width="1120" height="820" fill="none" stroke="#9AA3B1" stroke-width="6" stroke-dasharray="26 18"/>
+  <circle cx="600" cy="360" r="110" fill="none" stroke="#9AA3B1" stroke-width="10"/>
+  <path d="M540 360l45 45 95-110" fill="none" stroke="#9AA3B1" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#4C5560">PLACEHOLDER PHOTO</text>
+  <text x="600" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#4C5560">Exterior wash</text>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6B7480">Replace this file with a real photo of the client's own work</text>
+</svg>

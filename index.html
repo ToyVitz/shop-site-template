@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Title, description, robots tag, Open Graph tags and LocalBusiness schema
+     are all written by app.js from site-config.js. Do not type business
+     details into this file. -->
+<title>Website</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2310305A'/%3E%3C/svg%3E">
+<script src="site-config.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<noscript>
+  <p class="wrap notice">This page fills in the business details from
+  <code>site-config.js</code> when JavaScript runs. Please turn JavaScript on,
+  or call the number on the business's Google listing.</p>
+</noscript>
+
+<!-- 1. HEADER -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <p class="logo"><span data-config-text="businessName"></span></p>
+    <a class="btn btn-call btn-header" data-config-href="phone" data-config-href-prefix="tel:">
+      <span class="btn-kicker">Tap to call</span>
+      <span class="btn-main" data-config-text="phoneDisplay"></span>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 2. HERO -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="wrap hero-inner">
+      <h1 id="hero-heading" data-config-text="businessName"></h1>
+      <p class="hero-tagline" data-config-text="tagline"></p>
+      <p class="hero-area" data-config-if="serviceArea">Serving <span data-config-text="serviceAreaShort"></span></p>
+      <p class="notice notice-demo" data-config-if="demoMode" hidden>
+        <strong>Sample site.</strong> This demonstration page was built by
+        Pitstop Pages with made-up details for a business that does not exist.
+        It is hidden from search engines. Nothing here is a real review, price,
+        hour or claim.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-call btn-lg" data-config-href="phone" data-config-href-prefix="tel:">
+          Call <span data-config-text="phoneDisplay"></span>
+        </a>
+        <a class="btn btn-quote btn-lg" href="#quote">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SERVICES -->
+  <section id="services" class="section" aria-labelledby="services-heading">
+    <div class="wrap">
+      <h2 id="services-heading">Services and starting prices</h2>
+      <p class="lead">A starting price is the lowest a job like this usually costs. The final price depends on the vehicle and the condition it is in.</p>
+      <p class="placeholder-note">Every price below is a placeholder until the owner supplies real ones.</p>
+      <ul class="cards" id="services-list"></ul>
+    </div>
+  </section>
+
+  <!-- 4. PHOTO GALLERY -->
+  <section id="gallery" class="section section-alt" aria-labelledby="gallery-heading">
+    <div class="wrap">
+      <h2 id="gallery-heading">Photos</h2>
+      <p class="placeholder-note">These are labelled placeholder pictures, not real jobs. Replace the files in the <code>images</code> folder with the client's own photos before a site goes live. Photos load only as you scroll to them.</p>
+      <div class="gallery" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- 5. REVIEWS CALL TO ACTION -->
+  <section id="reviews" class="section" aria-labelledby="reviews-heading">
+    <div class="wrap narrow">
+      <h2 id="reviews-heading">Reviews</h2>
+      <p>This template never writes reviews, star ratings or customer names. Real reviews belong on the business's own Google profile, so the button below goes straight there.</p>
+      <p class="placeholder-note">PLACEHOLDER — the link is a Google search placeholder. Replace <code>googleReviewsUrl</code> in <code>site-config.js</code> with the client's real Google reviews link.</p>
+      <p><a class="btn btn-outline btn-lg" data-config-href="googleReviewsUrl" rel="noopener" target="_blank">Read reviews on Google</a></p>
+    </div>
+  </section>
+
+  <!-- 6. HOURS AND SERVICE AREA -->
+  <section id="hours" class="section section-alt" aria-labelledby="hours-heading">
+    <div class="wrap grid-2">
+      <div>
+        <h2 id="hours-heading">Hours and service area</h2>
+        <h3>Opening hours</h3>
+        <dl class="hours" id="hours-list"></dl>
+        <p class="placeholder-note">PLACEHOLDER hours — set the client's real hours in <code>site-config.js</code>.</p>
+        <h3>Where we work</h3>
+        <p data-config-text="serviceArea"></p>
+        <p class="muted" data-config-text="addressLine"></p>
+        <p><a data-config-href="mapLinkUrl" rel="noopener" target="_blank">Open the service area in Google Maps</a></p>
+      </div>
+      <div class="map">
+        <iframe id="map-frame" title="Map of the service area" loading="lazy" width="600" height="400" style="border:0" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. QUOTE REQUEST FORM -->
+  <section id="quote" class="section" aria-labelledby="quote-heading">
+    <div class="wrap narrow">
+      <h2 id="quote-heading">Request a quote</h2>
+      <p class="lead">Fill this in and the details go straight to the business by email. Fields marked with a star must be filled in.</p>
+      <form id="quote-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" data-config-attr="value:web3formsAccessKey">
+        <input type="hidden" name="subject" value="New quote request from the website">
+        <input type="hidden" name="from_name" value="Website quote form">
+        <p class="hp"><label for="q-botcheck">Leave this box empty</label><input id="q-botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></p>
+
+        <p class="field">
+          <label for="q-name">Your name <span class="req">*</span></label>
+          <input id="q-name" name="name" type="text" autocomplete="name" required>
+        </p>
+
+        <p class="field">
+          <label for="q-phone">Best phone number <span class="req">*</span></label>
+          <input id="q-phone" name="phone" type="tel" autocomplete="tel" required>
+        </p>
+
+        <p class="field">
+          <label for="q-vehicle">Vehicle year, make and model</label>
+          <input id="q-vehicle" name="vehicle" type="text" placeholder="Example: 2014 Ford F-150">
+        </p>
+
+        <p class="field">
+          <label for="q-service">Service needed</label>
+          <select id="q-service" name="service"></select>
+        </p>
+
+        <p class="field">
+          <label for="q-date">Preferred date</label>
+          <input id="q-date" name="preferred_date" type="date">
+        </p>
+
+        <p class="field">
+          <label for="q-message">Message</label>
+          <textarea id="q-message" name="message" rows="5"></textarea>
+        </p>
+
+        <p><button class="btn btn-quote btn-lg" type="submit" id="quote-submit">Send my request</button></p>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1"></p>
+
+        <p class="placeholder-note" data-config-if="demoMode" hidden>
+          This demo form is not connected to an inbox yet. It will tell you honestly if a request could not be sent, and it will always offer the phone number as a fallback. Paste the client's real Web3Forms key into <code>web3formsAccessKey</code> to make it live.
+        </p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- 8. FOOTER -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-name" data-config-text="businessName"></p>
+    <p class="footer-links">
+      <a data-config-href="phone" data-config-href-prefix="tel:">Call <span data-config-text="phoneDisplay"></span></a>
+      <span aria-hidden="true">·</span>
+      <a data-config-href="textNumber" data-config-href-prefix="sms:" data-sms-body="Hi, I would like a quote for my vehicle.">Text us</a>
+      <span aria-hidden="true">·</span>
+      <a data-config-href="quoteEmail" data-config-href-prefix="mailto:"><span data-config-text="quoteEmail"></span></a>
+    </p>
+    <p class="muted" data-config-text="serviceArea"></p>
+    <p class="fine-print">© <span id="year"></span> <span data-config-text="businessName"></span>. One-page website template by Pitstop Pages.</p>
+  </div>
+</footer>
+
+<!-- Sticky call/text bar, phones only -->
+<nav class="sticky-bar" id="sticky-bar" aria-label="Call or text this business">
+  <a class="sticky-btn sticky-call" data-config-href="phone" data-config-href-prefix="tel:">
+    <span aria-hidden="true">📞</span> Call
+  </a>
+  <a class="sticky-btn sticky-text" data-config-href="textNumber" data-config-href-prefix="sms:" data-sms-body="Hi, I would like a quote for my vehicle.">
+    <span aria-hidden="true">💬</span> Text
+  </a>
+</nav>
+</body>
+</html>

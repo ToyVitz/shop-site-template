@@ -1,9 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Placeholder photo: Wax finish">
-  <rect width="1200" height="900" fill="#E7EAEF"/>
-  <rect x="40" y="40" width="1120" height="820" fill="none" stroke="#9AA3B1" stroke-width="6" stroke-dasharray="26 18"/>
-  <circle cx="600" cy="360" r="110" fill="none" stroke="#9AA3B1" stroke-width="10"/>
-  <path d="M540 360l45 45 95-110" fill="none" stroke="#9AA3B1" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="600" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#4C5560">PLACEHOLDER PHOTO</text>
-  <text x="600" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#4C5560">Wax finish</text>
-  <text x="600" y="740" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6B7480">Replace this file with a real photo of the client's own work</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Illustration: a polished car panel with a machine polisher and shine marks — sample placeholder, not a real job">
+  <title>Sample illustration: wax finish</title>
+  <rect width="1200" height="900" fill="#EEF2F7"/>
+  <circle cx="1010" cy="200" r="150" fill="#E4EBF4"/>
+  <line x1="120" y1="660" x2="1080" y2="660" stroke="#D7DEE8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="330" y="458" width="690" height="140" rx="48" fill="#FFFFFF" stroke="#10305A" stroke-width="14"/>
+  <path d="M500 458 L566 362 H814 L850 458 Z" fill="#FFFFFF" stroke="#10305A" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M528 444 L588 380 H672 V444 Z" fill="#9FB4CE"/>
+  <path d="M694 380 H800 L826 444 H694 Z" fill="#9FB4CE"/>
+  <path d="M372 516 H520" stroke="#9FB4CE" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <path d="M566 570 C 660 520 780 516 900 540" fill="none" stroke="#9FB4CE" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="470" cy="598" r="62" fill="#10305A"/>
+  <circle cx="470" cy="598" r="24" fill="#EEF2F7"/>
+  <circle cx="880" cy="598" r="62" fill="#10305A"/>
+  <circle cx="880" cy="598" r="24" fill="#EEF2F7"/>
+  <path d="M934 236 l14 40 40 14 -40 14 -14 40 -14 -40 -40 -14 40 -14 z" fill="#B4451F"/>
+  <path d="M800 292 l10 28 28 10 -28 10 -10 28 -10 -28 -28 -10 28 -10 z" fill="#B4451F"/>
+  <path d="M236 292 l10 28 28 10 -28 10 -10 28 -10 -28 -28 -10 28 -10 z" fill="#9FB4CE"/>
+  <rect x="112" y="540" width="198" height="120" rx="28" fill="#B4451F" stroke="#10305A" stroke-width="12"/>
+  <rect x="112" y="506" width="198" height="46" rx="22" fill="#FFFFFF" stroke="#10305A" stroke-width="12"/>
+  <path d="M158 506 a58 58 0 0 1 108 0" fill="none" stroke="#10305A" stroke-width="10"/>
+  <line x1="300" y1="762" x2="900" y2="762" stroke="#D7DEE8" stroke-width="6" stroke-linecap="round"/>
+  <text x="600" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#5B6675">Sample illustration — replace with your own photo</text>
 </svg>

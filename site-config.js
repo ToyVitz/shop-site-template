@@ -88,16 +88,18 @@ window.SITE_CONFIG = {
 
   /* --- Photos ------------------------------------------------------------
      Files in the /images folder, in the order they should appear.
+     The six files shipped with this template are sample illustrations, not
+     photos of real work: each one is drawn artwork with a small label inside
+     that says so. Replace them with the client's own photos.
      width and height are the real pixel size of each file — they stop the
-     page jumping while photos load. Keep alt text short and factual.
-     These six are labelled placeholders, not real jobs.                 */
+     page jumping while images load. Keep alt text short and factual.    */
   photos: [
-    { src: "images/sample-photo-1-exterior-wash.svg",  alt: "Placeholder photo — exterior wash (not a real job)",   caption: "Placeholder photo — replace with a real exterior wash photo",  width: 1200, height: 900 },
-    { src: "images/sample-photo-2-interior-vacuum.svg", alt: "Placeholder photo — interior vacuum (not a real job)", caption: "Placeholder photo — replace with a real interior photo",       width: 1200, height: 900 },
-    { src: "images/sample-photo-3-wheels.svg",         alt: "Placeholder photo — wheels and tyres (not a real job)",  caption: "Placeholder photo — replace with a real wheel photo",          width: 1200, height: 900 },
-    { src: "images/sample-photo-4-seats.svg",          alt: "Placeholder photo — seat cleaning (not a real job)",     caption: "Placeholder photo — replace with a real seat cleaning photo",  width: 1200, height: 900 },
-    { src: "images/sample-photo-5-wax.svg",            alt: "Placeholder photo — wax finish (not a real job)",        caption: "Placeholder photo — replace with a real finish photo",         width: 1200, height: 900 },
-    { src: "images/sample-photo-6-van-setup.svg",      alt: "Placeholder photo — mobile van setup (not a real job)",  caption: "Placeholder photo — replace with a real van or setup photo",   width: 1200, height: 900 }
+    { src: "images/sample-photo-1-exterior-wash.svg",  alt: "Sample illustration of a car covered in soap suds beside a bucket",  caption: "Sample illustration — replace with a photo of an exterior wash",  width: 1200, height: 900 },
+    { src: "images/sample-photo-2-interior-vacuum.svg", alt: "Sample illustration of a vacuum nozzle and hose cleaning a floor mat", caption: "Sample illustration — replace with a photo of an interior vacuum", width: 1200, height: 900 },
+    { src: "images/sample-photo-3-wheels.svg",         alt: "Sample illustration of a clean wheel rim and tyre",                  caption: "Sample illustration — replace with a photo of wheels and tyres",  width: 1200, height: 900 },
+    { src: "images/sample-photo-4-seats.svg",          alt: "Sample illustration of a car seat covered in foam with a spray bottle", caption: "Sample illustration — replace with a photo of seat cleaning", width: 1200, height: 900 },
+    { src: "images/sample-photo-5-wax.svg",            alt: "Sample illustration of a polished panel with a machine polisher and shine marks", caption: "Sample illustration — replace with a photo of a wax finish", width: 1200, height: 900 },
+    { src: "images/sample-photo-6-van-setup.svg",      alt: "Sample illustration of a detailing van with its side door open, showing shelves and equipment", caption: "Sample illustration — replace with a photo of the van setup", width: 1200, height: 900 }
   ],
 
   /* --- Reviews -----------------------------------------------------------

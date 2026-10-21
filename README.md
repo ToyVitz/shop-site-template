@@ -45,15 +45,19 @@ Edit only what is between the quote marks. Keep the quotes, keep the commas.
 **Never make up a price, an hour, a review or a qualification.** If the owner
 has not told you, leave the text reading PLACEHOLDER and ask them. The reviews
 section on purpose has no review text, no star rating and no customer names —
-it is only a button through to their real Google profile. The photos are
-labelled placeholder pictures, not real jobs, so nobody thinks they show work
-that was never done.
+it is only a button through to their real Google profile. The six images that
+come with the template are sample illustrations — drawn artwork, each with a
+small label inside saying so — not photos of real work, so nobody thinks they
+show a job that was never done.
 
 ---
 
 ## Swapping the photos
 
-1. Put the client's photos in the `images` folder.
+1. Put the client's photos in the `images` folder. The six
+   `sample-photo-*.svg` illustrations that come with the template can stay
+   until then, but point every line of the `photos` list at a real photo
+   before the site goes live.
 2. Squash them first, so the page stays fast. Any free tool will do (for
    example squoosh.app). Aim for under 250 KB each, and 1600 pixels wide at
    most. Save as `.jpg`.
@@ -158,5 +162,5 @@ site by itself in about a minute.
 | `index.html` | The page structure. It has no business details in it. |
 | `styles.css` | How it looks. Colours come from the config. |
 | `app.js` | The behaviour: fills in the details, builds the schema tags, handles the form. |
-| `images/` | The photos. |
+| `images/` | The client's photos (and the sample illustrations until you replace them). |
 | `README.md` | This file. |

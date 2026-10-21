@@ -1,9 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Placeholder photo: Wheels and tyres">
-  <rect width="1200" height="900" fill="#E7EAEF"/>
-  <rect x="40" y="40" width="1120" height="820" fill="none" stroke="#9AA3B1" stroke-width="6" stroke-dasharray="26 18"/>
-  <circle cx="600" cy="360" r="110" fill="none" stroke="#9AA3B1" stroke-width="10"/>
-  <path d="M540 360l45 45 95-110" fill="none" stroke="#9AA3B1" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="600" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#4C5560">PLACEHOLDER PHOTO</text>
-  <text x="600" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#4C5560">Wheels and tyres</text>
-  <text x="600" y="740" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#6B7480">Replace this file with a real photo of the client's own work</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Illustration: a wheel with a clean rim and spokes — sample placeholder, not a real job">
+  <title>Sample illustration: wheels and tyres</title>
+  <rect width="1200" height="900" fill="#EEF2F7"/>
+  <circle cx="1010" cy="200" r="150" fill="#E4EBF4"/>
+  <line x1="120" y1="660" x2="1080" y2="660" stroke="#D7DEE8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="560" cy="400" r="260" fill="#10305A"/>
+  <circle cx="560" cy="400" r="230" fill="none" stroke="#9FB4CE" stroke-width="18" stroke-dasharray="26 30"/>
+  <circle cx="560" cy="400" r="158" fill="#FFFFFF" stroke="#10305A" stroke-width="14"/>
+  <g stroke="#10305A" stroke-width="34" stroke-linecap="round">
+    <line x1="560" y1="346" x2="560" y2="246"/>
+    <line x1="611" y1="383" x2="707" y2="352"/>
+    <line x1="592" y1="444" x2="651" y2="525"/>
+    <line x1="528" y1="444" x2="469" y2="525"/>
+    <line x1="509" y1="383" x2="413" y2="352"/>
+  </g>
+  <circle cx="560" cy="400" r="54" fill="#9FB4CE" stroke="#10305A" stroke-width="12"/>
+  <path d="M968 210 l14 40 40 14 -40 14 -14 40 -14 -40 -40 -14 40 -14 z" fill="#B4451F"/>
+  <circle cx="900" cy="552" r="16" fill="#FFFFFF" stroke="#8FA9C8" stroke-width="6"/>
+  <circle cx="956" cy="604" r="11" fill="#FFFFFF" stroke="#8FA9C8" stroke-width="6"/>
+  <line x1="300" y1="762" x2="900" y2="762" stroke="#D7DEE8" stroke-width="6" stroke-linecap="round"/>
+  <text x="600" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#5B6675">Sample illustration — replace with your own photo</text>
 </svg>
